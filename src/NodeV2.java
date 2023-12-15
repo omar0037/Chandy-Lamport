@@ -673,7 +673,6 @@ public class NodeV2 {
         private ArrayList<Message> messageArrayList;
 
         public ListenerHandler(SctpChannel clientChannel) {
-            // TODO : set sender Node num
             this.clientChannel = clientChannel;
             setByteBuffer(ByteBuffer.allocate(8192));
             messageArrayList = new ArrayList<>();
